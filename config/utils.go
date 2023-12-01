@@ -13,6 +13,8 @@ func anyRegexMatch(f string, res []*regexp.Regexp) bool {
 	return false
 }
 
+// hi
+
 func regexMatched(f string, re *regexp.Regexp) bool {
 	if re == nil {
 		return false
